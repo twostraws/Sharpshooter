@@ -43,13 +43,22 @@ And after:
 
 ## Installation
 
-Xcode extensions are compiled as part of a basically useless macOS app. To install the extension, you need to:
+Xcode extensions are compiled as part of a basically useless macOS app. I've built the extension for you and in theory it should work:
+
+1. Go to [the latest release](https://github.com/twostraws/Sharpshooter/releases/latest)
+2. Download and extract the zip.
+3. Move Sharpshooter.app to your Mac's Applications directory. You may need to launch the app at least once to register its extension.
+4. Relaunch Xcode.
+
+To build the extension from scratch you need to:
 
 1. Clone this repository.
 2. Activate your team for signing both the macOS app and the extension.
 3. Build the macOS app.
-4. Move the built macOS app to your Mac’s Applications folder.
+4. Move the built macOS app to your Mac’s Applications folder. You may need to launch the app at least once to register its extension.
 5. Relaunch Xcode.
+
+You can check that the extension is installed by going to your Mac's system preferences, choosing Extensions > Xcode Source Editor, and verifying that there's a check next to Sharpshooter.
 
 ## Contributing
 
